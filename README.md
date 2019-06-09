@@ -1,5 +1,10 @@
 Principal_Assesment
 
+## Compilation
+
+```
+Compilation: dotnet build TransportManager.sln
+
 ## Usage
 
 ```
