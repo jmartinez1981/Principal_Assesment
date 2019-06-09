@@ -14,3 +14,6 @@ Operations availables:
   1				Sample with no priority
   2				Sample with max priority
   3				Sample leave
+  
+Example
+ dotnet TransportManager.Application -op 0,1,3 -id 12345
