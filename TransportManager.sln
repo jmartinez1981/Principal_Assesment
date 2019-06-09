@@ -24,6 +24,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransportManager.Domain", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransportManager.Crosscutting", "Source\TransportManager.Crosscutting\TransportManager.Crosscutting.csproj", "{B0B3FE54-DC99-42A5-8F3A-6D4ECD1433DB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C9D307AA-AE38-46E6-91AD-60E5CCD966EB}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\Nuget.Config = .nuget\Nuget.Config
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

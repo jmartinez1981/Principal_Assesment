@@ -24,11 +24,14 @@ namespace TransportManager.Services
             var operationsValue = this.configuration.GetValue<string>(CommandLineHelper.OperationKey);
             var idSampleValue = this.configuration.GetValue<string>(CommandLineHelper.IdSampleKey);
 
-            foreach (var operationValue in operationsValue.Split(","))
+            if (operationsValue != null)
             {
-                var operation = this.operationFactory.GetOperation(operationValue, idSampleValue);
+                foreach (var operationValue in operationsValue.Split(","))
+                {
+                    var operation = this.operationFactory.GetOperation(operationValue, idSampleValue);
 
-                operation.Perform();
+                    operation.Perform();
+                }
             }
         }
     }

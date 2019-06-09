@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -24,6 +25,7 @@ namespace TransportManager.Application
             var builder = new HostBuilder()
                 .ConfigureAppConfiguration((hostingContext, config) =>
                 {
+                    config.SetBasePath(Directory.GetCurrentDirectory());
                     // Call other providers here and call AddCommandLine last.
                     config.AddCommandLine(args, CommandLineHelper.GetKeyMappings());
                 })

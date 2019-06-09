@@ -28,7 +28,7 @@ namespace TransportManager.Domain
             if (sample != null)
             {
                 samples.Remove(sample);
-                this.logger.LogInformation($"The sample with id: {sample.Id} has been added");
+                this.logger.LogInformation($"The sample with id: {sample.Id} has been removed");
             }
         }
 
