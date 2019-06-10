@@ -6,6 +6,7 @@ Proof of Concept about perform operation in sample containers.
 
 Compilation: dotnet build TransportManager.sln
 
+Test execution: execute_tests.bat
 
 Usage: dotnet TransportManager.Application [arguments]
 
