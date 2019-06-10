@@ -1,13 +1,15 @@
-﻿using System;
-using System.Threading;
+﻿using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using TransportManager.Services;
 
 namespace TransportManager.Application
 {
+
+    /// <summary>
+    /// Hosted service configuration.
+    /// </summary>
     public class BackgroundHostedService : IHostedService
     {
         private readonly ILogger<BackgroundHostedService> logger;

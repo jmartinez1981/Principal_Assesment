@@ -1,5 +1,4 @@
-﻿using System;
-using TransportManager.Domain;
+﻿using TransportManager.Domain;
 using TransportManager.Services.Factory;
 
 namespace TransportManager.Services.Strategy

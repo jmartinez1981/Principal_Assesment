@@ -1,6 +1,10 @@
 ﻿
 namespace TransportManager.Domain
 {
+    /// <summary>
+    /// Sample Entity. 
+    /// Shows the test priority and test price.
+    /// </summary>
     public class Sample : Element
     {
         public string Id { get; }

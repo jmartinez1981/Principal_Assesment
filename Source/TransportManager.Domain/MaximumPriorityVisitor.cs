@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TransportManager.Domain
+﻿namespace TransportManager.Domain
 {
     /// <summary>
-    /// A Concrete Visitor class.
+    /// A Concrete Visitor class. 
+    /// Assign max priority and sample test price.
     /// </summary>
     public class MaximumPriorityVisitor : IVisitor
     {

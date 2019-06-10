@@ -1,6 +1,4 @@
 ﻿
-using System.Security.Cryptography.X509Certificates;
-
 namespace TransportManager.Services.Strategy
 {
     public interface IOperationStrategy

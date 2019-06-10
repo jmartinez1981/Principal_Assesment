@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using TransportManager.Services.Strategy;
+﻿using TransportManager.Services.Strategy;
 
 namespace TransportManager.Services.Factory
 {

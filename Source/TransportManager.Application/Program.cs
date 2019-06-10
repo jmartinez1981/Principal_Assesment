@@ -15,7 +15,7 @@ namespace TransportManager.Application
     {
         public static async Task Main(string[] args)
         {
-            Console.Title = "Console App as a Service";
+            Console.Title = "TransportManager PoC";
 
             await ExecuteMainAsync(args).ConfigureAwait(false);
         }
